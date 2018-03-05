@@ -21,6 +21,9 @@
 
 " Keybindings
 	let mapleader = ','
+	" Tabs navigation settings
+		map <silent><C-n> :tabnext<CR>
+		map <silent><C-p> :tabprevious<CR>
 
 " Plugin Settings
   " indentLine
