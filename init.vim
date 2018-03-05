@@ -5,6 +5,7 @@
 		Plug 'scrooloose/nerdcommenter'
 		Plug 'groenewege/vim-less'
 		Plug 'Shutnik/jshint2.vim'
+		Plug 'kshenoy/vim-signature'
 	call plug#end()
 
 " UI config
