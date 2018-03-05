@@ -6,15 +6,16 @@
 		Plug 'groenewege/vim-less'
 		Plug 'Shutnik/jshint2.vim'
 		Plug 'kshenoy/vim-signature'
+		Plug 'morhetz/gruvbox'
 	call plug#end()
 
-" UI config
+" UI/Theme config
 	set number
 	set cursorline
 	set ts=4
 	set sw=4
-
-" Theme
+	set bg=dark
+	colorscheme gruvbox
 	syntax enable
 
 " Plugin Settings
