@@ -11,6 +11,7 @@
 		Plug 'kien/ctrlp.vim'
 		Plug 'tpope/vim-fugitive'
 		Plug 'bling/vim-airline'
+		Plug 'powerline/fonts'
 	call plug#end()
 
 " UI/Theme config
