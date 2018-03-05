@@ -7,6 +7,7 @@
 		Plug 'Shutnik/jshint2.vim'
 		Plug 'kshenoy/vim-signature'
 		Plug 'morhetz/gruvbox'
+		Plug 'ervandew/supertab'
 	call plug#end()
 
 " UI/Theme config
