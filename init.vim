@@ -9,6 +9,7 @@
 		Plug 'morhetz/gruvbox'
 		Plug 'ervandew/supertab'
 		Plug 'kien/ctrlp.vim'
+		Plug 'tpope/vim-fugitive'
 	call plug#end()
 
 " UI/Theme config
