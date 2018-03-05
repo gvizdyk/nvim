@@ -19,6 +19,9 @@
 	colorscheme gruvbox
 	syntax enable
 
+" Keybindings
+	let mapleader = ','
+
 " Plugin Settings
   " indentLine
 		let g:indentLine_char = '┆'
