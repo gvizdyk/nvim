@@ -1,19 +1,19 @@
-call plug#begin('~/.config/nvim/plugged')
+" Plugins
+	call plug#begin('~/.config/nvim/plugged')
+		Plug 'posva/vim-vue'
+		Plug 'Yggdroot/indentLine'
+	call plug#end()
 
-" Plugins {
-	Plug 'posva/vim-vue'
-" }
-
-call plug#end()
-
-" UI config {
+" UI config
 	set number
 	set cursorline
 	set ts=4
 	set sw=4
-" }
 
-" Theme {
+" Theme
 	syntax enable
-" }
+
+" Plugin Settings
+    " indentLine
+		let g:indentLine_char = '┆'
 
