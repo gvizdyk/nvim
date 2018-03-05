@@ -4,6 +4,7 @@
 		Plug 'Yggdroot/indentLine'
 		Plug 'scrooloose/nerdcommenter'
 		Plug 'groenewege/vim-less'
+		Plug 'Shutnik/jshint2.vim'
 	call plug#end()
 
 " UI config
@@ -20,3 +21,5 @@
 		let g:indentLine_char = '┆'
     " nerdcommenter
 		let g:NERDSpaceDelims = 1
+	" jshint2.vim
+		let jshint2_save = 1
