@@ -8,6 +8,7 @@
 		Plug 'kshenoy/vim-signature'
 		Plug 'morhetz/gruvbox'
 		Plug 'ervandew/supertab'
+		Plug 'kien/ctrlp.vim'
 	call plug#end()
 
 " UI/Theme config
@@ -32,3 +33,5 @@
 		let g:NERDSpaceDelims = 1
 	" jshint2.vim
 		let jshint2_save = 1
+	" ctrlp.vim
+		let g:ctrlp_map = '<c-f>'
