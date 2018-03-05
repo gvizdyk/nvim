@@ -10,6 +10,7 @@
 		Plug 'ervandew/supertab'
 		Plug 'kien/ctrlp.vim'
 		Plug 'tpope/vim-fugitive'
+		Plug 'bling/vim-airline'
 	call plug#end()
 
 " UI/Theme config
@@ -36,3 +37,14 @@
 		let jshint2_save = 1
 	" ctrlp.vim
 		let g:ctrlp_map = '<c-f>'
+	" vim-airline
+		let g:airline#extensions#branch#enabled = 1
+		let g:airline#extensions#tabline#enabled = 1
+		if !exists('g:airline_symbols')
+			let g:airline_symbols = {}
+		endif
+		let g:airline_powerline_fonts = 1
+		let g:airline_left_sep = ''
+		let g:airline_right_sep = ''
+		let g:airline_symbols.linenr = '¶'
+		let g:airline_symbols.branch = '⎇'
