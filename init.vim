@@ -2,6 +2,7 @@
 	call plug#begin('~/.config/nvim/plugged')
 		Plug 'posva/vim-vue'
 		Plug 'Yggdroot/indentLine'
+		Plug 'scrooloose/nerdcommenter'
 	call plug#end()
 
 " UI config
@@ -16,4 +17,5 @@
 " Plugin Settings
     " indentLine
 		let g:indentLine_char = '┆'
-
+    " nerdcommenter
+		let g:NERDSpaceDelims = 1
