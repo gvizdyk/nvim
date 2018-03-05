@@ -12,16 +12,16 @@
 " UI/Theme config
 	set number
 	set cursorline
-	set ts=4
-	set sw=4
+	set ts=2
+	set sw=2
 	set bg=dark
 	colorscheme gruvbox
 	syntax enable
 
 " Plugin Settings
-    " indentLine
+  " indentLine
 		let g:indentLine_char = '┆'
-    " nerdcommenter
+  " nerdcommenter
 		let g:NERDSpaceDelims = 1
 	" jshint2.vim
 		let jshint2_save = 1
