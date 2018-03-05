@@ -3,6 +3,7 @@
 		Plug 'posva/vim-vue'
 		Plug 'Yggdroot/indentLine'
 		Plug 'scrooloose/nerdcommenter'
+		Plug 'groenewege/vim-less'
 	call plug#end()
 
 " UI config
