@@ -12,6 +12,7 @@
 		Plug 'tpope/vim-fugitive'
 		Plug 'bling/vim-airline'
 		Plug 'powerline/fonts'
+		Plug 'scrooloose/nerdtree'
 	call plug#end()
 
 " UI/Theme config
@@ -28,6 +29,8 @@
 	" Tabs navigation settings
 		map <silent><C-n> :tabnext<CR>
 		map <silent><C-p> :tabprevious<CR>
+		" nerdtree settings
+		map <C-z> :NERDTreeToggle<CR>
 
 " Plugin Settings
   " indentLine
