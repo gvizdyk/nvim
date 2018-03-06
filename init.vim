@@ -21,6 +21,7 @@
 	set ts=2
 	set sw=2
 	set bg=dark
+	set expandtab 						" Spaces instead of tabs;
 	colorscheme gruvbox
 	syntax enable
 
