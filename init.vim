@@ -31,7 +31,7 @@
 		map <silent><C-n> :tabnext<CR>
 		map <silent><C-p> :tabprevious<CR>
 		" nerdtree settings
-		map <C-z> :NERDTreeToggle<CR>
+		map <C-x> :NERDTreeToggle<CR>
 
 " Plugin Settings
   " indentLine
