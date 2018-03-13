@@ -22,10 +22,15 @@
   set cursorline
   set ts=2
   set sw=2
-  set bg=dark
-  set expandtab "Spaces instead of tabs;
-  colorscheme gruvbox
   syntax enable
+  " Spaces instead of tabs
+  set expandtab
+  " Set theme color schema
+  set bg=dark
+  colorscheme gruvbox
+  " highlight trim trailing white space
+  highlight ExtraWhitespace ctermbg=red
+  match ExtraWhitespace /\s\+$/
 
 " Keybindings
   let mapleader = ','
