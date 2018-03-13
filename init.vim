@@ -32,6 +32,8 @@
     map <silent><C-p> :tabprevious<CR>
   " nerdtree settings
     map <C-x> :NERDTreeToggle<CR>
+  " select all text
+    map <C-a> <esc>ggVG<CR>
 
 " Plugin Settings
   " indentLine
