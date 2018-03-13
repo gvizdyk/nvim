@@ -15,6 +15,7 @@
     Plug 'scrooloose/nerdtree'
     Plug 'leafgarland/typescript-vim'
     Plug 'mattn/emmet-vim'
+    Plug 'airblade/vim-gitgutter'
   call plug#end()
 
 " UI/Theme config
