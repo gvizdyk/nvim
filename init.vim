@@ -13,6 +13,8 @@
     Plug 'bling/vim-airline'
     Plug 'powerline/fonts'
     Plug 'scrooloose/nerdtree'
+    Plug 'leafgarland/typescript-vim'
+    Plug 'mattn/emmet-vim'
   call plug#end()
 
 " UI/Theme config
