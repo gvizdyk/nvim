@@ -42,6 +42,8 @@
     map <C-x> :NERDTreeToggle<CR>
   " select all text
     map <C-a> <esc>ggVG<CR>
+  " git preview hunk
+    nmap <Leader>hv <Plug>GitGutterPreviewHunk
 
 " Plugin Settings
   " indentLine
