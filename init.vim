@@ -1,9 +1,7 @@
 " Plugins
   call plug#begin('~/.config/nvim/plugged')
-    Plug 'posva/vim-vue'
     Plug 'Yggdroot/indentLine'
     Plug 'scrooloose/nerdcommenter'
-    Plug 'groenewege/vim-less'
     Plug 'Shutnik/jshint2.vim'
     Plug 'kshenoy/vim-signature'
     Plug 'morhetz/gruvbox'
@@ -13,9 +11,11 @@
     Plug 'bling/vim-airline'
     Plug 'powerline/fonts'
     Plug 'scrooloose/nerdtree'
-    Plug 'leafgarland/typescript-vim'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'mattn/emmet-vim'
     Plug 'airblade/vim-gitgutter'
+    Plug 'gregsexton/MatchTag'
+    Plug 'sheerun/vim-polyglot'
   call plug#end()
 
 " UI/Theme config
