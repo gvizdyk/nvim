@@ -16,6 +16,7 @@
     Plug 'airblade/vim-gitgutter'
     Plug 'gregsexton/MatchTag'
     Plug 'sheerun/vim-polyglot'
+    Plug 'Raimondi/delimitMate'
   call plug#end()
 
 " UI/Theme config
