@@ -52,12 +52,16 @@
     let g:indentLine_char = '┆'
   " nerdcommenter
     let g:NERDSpaceDelims = 1
-  " jshint2.vim
-    let jshint2_save = 1
+    " jshint2.vim
+    if has("autocmd")
+      autocmd BufWritePost *.js silent execute 'JSHint'
+    endif
+    let jshint2_confirm = 0
   " ctrlp.vim
     let g:ctrlp_map = '<c-f>'
   " vim-auto-save
     let g:auto_save = 1
+    let g:auto_save_in_insert_mode = 0
   " vim-airline
     let g:airline#extensions#branch#enabled = 1
     let g:airline#extensions#tabline#enabled = 1
